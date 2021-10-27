@@ -74,9 +74,9 @@ class App extends Component {
 
     return (
       <Container>
-        <h1>Phonebook</h1>
+        <h1>Phonebook &#128222;</h1>
         <Form getFormData={getFormData} />
-        <h2 className={s.contactsTitle}>Contacts &#128222;</h2>
+        <h2 className={s.contactsTitle}>Contacts</h2>
         <Filter value={filter} onChange={handleInputChange} />
         <ContactList
           contacts={contacts}
